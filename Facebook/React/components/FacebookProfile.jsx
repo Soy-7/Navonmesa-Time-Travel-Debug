@@ -2,24 +2,6 @@
 export default function FacebookProfile() {
   return (
     <>
-      <div className="header">
-        <div className="header-content">
-          <div className="logo">facebook</div>
-          <div className="header-nav">
-            <a href="#">home</a>
-            <a href="#">search</a>
-            <a href="#">friends</a>
-            <a href="#">invite</a>
-            <a href="#">help</a>
-            <a href="#">logout</a>
-          </div>
-        </div>
-      </div>
-
-      <div className="profile-header">
-        Mark Zuckerberg&apos;s Profile (This is you!)
-      </div>
-
       <div className="container">
         {/* Sidebar */}
         <div className="sidebar">
