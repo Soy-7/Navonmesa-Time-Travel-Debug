@@ -125,6 +125,18 @@ export default function Sidebar({ collapsed, onToggle }) {
             <span>{label}</span>
           </NavLink>
         ))}
+
+        {/* User profile card at bottom */}
+        <div className="sidebar-divider" style={{ marginTop: 'auto' }} />
+        <div className="sidebar-user-card">
+          <div className="sidebar-user-avatar">U</div>
+          {!collapsed && (
+            <div className="sidebar-user-info">
+              <div className="sidebar-user-name">You</div>
+              <div className="sidebar-user-sub">Personal account</div>
+            </div>
+          )}
+        </div>
       </aside>
 
       {/* Mobile bottom nav */}
